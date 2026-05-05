@@ -1,4 +1,4 @@
-# 📊 Superstore Sales Forecasting — SQL + Power BI
+# 📊 Superstore Sales Forecasting SQL + Power BI
 
 # Data Analytics Portfolio | Ilham Oussanna
 
@@ -9,8 +9,8 @@
 This project analyses four years of US retail sales data (2014–2017) from the Superstore dataset. The goal was to explore sales trends, identify what is and isn't profitable, and build a 12-month revenue forecast to support business planning.
 
 The analysis was completed in two stages:
-- **Stage 1 — SQL (PostgreSQL):** 8 queries to extract KPIs, regional breakdowns, category profitability, monthly trends, and customer segment margins
-- **Stage 2 — Power BI:** A 3-page interactive dashboard covering Sales Performance, Category Analysis, and a 12-Month Forecast
+- **Stage 1 SQL (PostgreSQL):** 8 queries to extract KPIs, regional breakdowns, category profitability, monthly trends, and customer segment margins
+- **Stage 2 Power BI:** A 3-page interactive dashboard covering Sales Performance, Category Analysis, and a 12-Month Forecast
 
 ---
 
@@ -71,7 +71,7 @@ Eight queries were written in PostgreSQL to answer specific business questions:
 
 ## 📊 Dashboard Pages
 
-### Page 1 — Sales Performance Overview
+### Page 1 Sales Performance Overview
 
 ![Sales Performance Overview](screenshots/page1_sales_overview.png)
 
@@ -79,11 +79,11 @@ KPI cards, monthly revenue trend, revenue by year, and regional breakdowns for r
 
 > **Key Insight:** Revenue grew 51% over four years, from $484K in 2014 to $733K in 2017. Growth accelerated in Q4 each year, suggesting a consistent seasonal demand pattern.
 
-> **Business Action:** Prioritise inventory planning and marketing spend in Q3 to capture peak season demand (Aug–Nov). The West region leads both revenue and profit — it should anchor any regional growth strategy.
+> **Business Action:** Prioritise inventory planning and marketing spend in Q3 to capture peak season demand (Aug–Nov). The West region leads both revenue and profit it should anchor any regional growth strategy.
 
 ---
 
-### Page 2 — Category & Product Analysis
+### Page 2 Category & Product Analysis
 
 ![Category & Product Analysis](screenshots/page2_category_analysis.png)
 
@@ -91,11 +91,11 @@ Revenue vs Profit by Category, Profit by Sub-Category, and Profit Margin by Segm
 
 > **Key Insight:** Furniture generates $742K in revenue but only $18K in profit (2.4% margin). Tables alone lose ~$17K, making it the single most profit-damaging sub-category.
 
-> **Business Action:** A review of Table pricing and discount rates would be a logical next step. Redirect promotional spend toward Copiers and Accessories — the highest-profit sub-categories — to improve overall margin.
+> **Business Action:** A review of Table pricing and discount rates would be a logical next step. Redirect promotional spend toward Copiers and Accessories, the highest-profit sub-categories to improve overall margin.
 
 ---
 
-### Page 3 — Sales Forecast (12-Month Outlook)
+### Page 3 Sales Forecast (12-Month Outlook)
 
 ![Sales Forecast](screenshots/page3_sales_forecast.png)
 
@@ -110,11 +110,11 @@ Revenue trend from 2014–2017 with a Power BI 12-month forecast and confidence 
 ## 📈 Key Findings
 
 - **51% revenue growth** from 2014 ($484K) to 2017 ($733K)
-- **Q4 is consistently the strongest period** — November and December peak every year
+- **Q4 is consistently the strongest period** November and December peak every year
 - **West region leads** on both revenue ($725K) and profit ($108K)
 - **Technology and Office Supplies** both achieve ~17% profit margins
 - **Furniture earns only 2.5% margin** despite being the second-highest revenue category
-- **Tables lose ~$17K** over the four-year period — likely driven by excessive discounting
+- **Tables lose ~$17K** over the four-year period, likely driven by excessive discounting
 - **Home Office customers** are the most margin-efficient segment at ~14%
 - **Revenue forecast to exceed $100K/month** by Q4 2018
 
